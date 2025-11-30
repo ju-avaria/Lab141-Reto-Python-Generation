@@ -2,10 +2,9 @@ numero_inicial = 1
 numero_final = 250
 
 print(f"Buscando números primos entre {numero_inicial} y {numero_final}...")
+
 lista_primos = []
-
 for numero in range(numero_inicial, numero_final + 1):
-
     if numero < 2:
         continue
 
@@ -54,7 +53,7 @@ for primo in lista_primos:
     if contador % 10 == 0:
         archivo.write("\n")
 
-archivo.write("Información adicional:\n")
+archivo.write("\nInformación adicional:\n")
 archivo.write(f"- Rango analizado: {numero_inicial} a {numero_final}\n")
 archivo.write(f"- Primer número primo: {lista_primos[0]}\n")
 archivo.write(f"- Último número primo: {lista_primos[-1]}\n")
