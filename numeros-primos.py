@@ -53,6 +53,8 @@ for primo in lista_primos:
     if contador % 10 == 0:
         archivo.write("\n")
 
+
+
 archivo.write("\nInformación adicional:\n")
 archivo.write(f"- Rango analizado: {numero_inicial} a {numero_final}\n")
 archivo.write(f"- Primer número primo: {lista_primos[0]}\n")
